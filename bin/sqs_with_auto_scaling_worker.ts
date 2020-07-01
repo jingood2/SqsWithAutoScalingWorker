@@ -5,3 +5,5 @@ import { SqsWithAutoScalingWorkerStack } from '../lib/sqs_with_auto_scaling_work
 
 const app = new cdk.App();
 new SqsWithAutoScalingWorkerStack(app, 'SqsWithAutoScalingWorkerStack');
+
+app.synth()
